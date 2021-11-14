@@ -1,6 +1,25 @@
+*{
+    background-color: grey;
+    font-family: 'Raleway', sans-serif;
+}
 h1 {
+    border: 3px rgb(0, 255, 85) solid;/* bordure comprend 3 valeur l'épaisseur, la couleur et le type de bordure */
+    border-radius: 10px; /* courbe des bordures il est possible de rajouter des valeur ex 10px / 20px; */
+    text-shadow: 6px 6px 15px linen;
     color:red;
 }
 h6 {
+    border: 4px mediumorchid solid;
+    border-width: 20px; /*aggrandi la bordure*/
+    box-shadow: 5px 5px 5px black; /* ombre comprend 4valeurs: decalage horizontale, verticale, adoucissement de l'ombre et la couleur */
+    text-shadow: 2px 2px 4px lightskyblue;
     color:blue;
+}
+p{
+    border-top: 3px white dotted;
+    border-left: 15px burlywood double;
+    border-right: 6px red double;
+    border-bottom: 5px red dashed;
+    border-radius: 0px 15px 15px 2px; /* 4valeurs: en haut a gauche, haut a droite, bas droite, bas gauche*/
+    text-shadow: 2px 2px 4px red;
 }
